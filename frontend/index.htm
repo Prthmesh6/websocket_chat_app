@@ -166,7 +166,7 @@
          function sendMessage() {
             var newmessage = document.getElementById("message");
             if (newmessage != null) {
-                let outgoingEvent = new SendMessageEvent(newmessage.value, "percy");
+                let outgoingEvent = new SendMessageEvent(newmessage.value, "prathmesh");
                 sendEvent("send_message", outgoingEvent)
             }
             return false;
@@ -195,6 +195,8 @@
                 "password": document.getElementById("password").value
             }
             // Send the request
+            console.log(username)
+            console.log(password)
             fetch("login", {
                 method: 'post',
                 body: JSON.stringify(formData),
@@ -233,7 +235,7 @@
 
                 // Add a listener to the onmessage event
                 conn.onmessage = function (evt) {
-                    console.log(evt);
+                    // console.log(evt);
                     // parse websocket message as JSON
                     const eventData = JSON.parse(evt.data);
                     // Assign JSON data to new Event Object

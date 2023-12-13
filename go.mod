@@ -1,4 +1,4 @@
-module programmingpercy.tech/websockets-go
+module github.com/Prthmesh6/websockets-go
 
 go 1.19
 

@@ -163,7 +163,7 @@ func (m *Manager) loginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Authenticate user / Verify Access token, what ever auth method you use
-	if req.Username == "percy" && req.Password == "123" {
+	if req.Username == "prathmesh" && req.Password == "123" {
 		// format to return otp in to the frontend
 		type response struct {
 			OTP string `json:"otp"`

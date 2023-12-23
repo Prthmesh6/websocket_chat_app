@@ -1,6 +1,14 @@
 # WebSocket Chat Application
 
+<div id="header" align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="100"/>
+</div>
+
 Welcome to my WebSocket-based chat application! This project demonstrates a simple chat application using WebSocket technology.
+
+### Documentation
+
+- [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ## Features
 
@@ -12,52 +20,49 @@ Welcome to my WebSocket-based chat application! This project demonstrates a simp
 
 ## Technologies Used
 
-- **Backend:** [Specify the backend technologies used, e.g., Go, Node.js, etc.]
-- **Frontend:** [Mention the frontend technologies, e.g., HTML, CSS, JavaScript, etc.]
+- **Backend:** Golang
+- **Frontend:** HTML
 - **WebSocket Protocol:** Utilizes the WebSocket protocol for real-time communication.
 
 ## How to Use
 
 ### Prerequisites
 
-- [List any prerequisites, such as specific software or installations needed before running the application]
+- Go and HTML should run on your machine
 
 ### Getting Started
 
 1. Clone this repository.
-2. [Provide specific steps to set up and run the application, including any configuration or environment setup required]
+2. Run command go run . in websocket_chat_app directory
    
 ### Authentication
 
 - Users need to provide valid credentials to establish a WebSocket connection.
-- [Explain the authentication process, if applicable, and how to test it]
+- For now keep username as "prathmesh" and password as "123"
 
 ### Chat Functionality
 
+- Go on your localhost port 8080
 - Users can join existing chat rooms or create new ones.
-- [Explain how to send and receive messages within the chat rooms]
+- Establish a websocket connection by authenticating
+- Type a message in box and click on "send message" button
 
 ### Ping Pong Mechanism
 
-- [Detail the ping pong mechanism, how often it pings, and the consequences of failed responses]
+- Client will send ping to server after every 5 seconds
+- If server fails to Pong for 2 consecutive times, connection will be dropped
 
 ## Future Improvements
 
-- [Share any potential enhancements or additional features you plan to add to this application]
+- This is just a working Websocket chat app sample
+- In Future I am going to build a proper authentication and maintainable code for this
+- Database will be used to keep the user details
 
-## Contributors
-
-- [Your Name]
-- [If collaborated with others, list their contributions here]
-
-## License
-
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Mention any acknowledgments or resources that helped in developing this application]
 
 ## Contact Information
 
-For any inquiries or suggestions, feel free to contact me at [Your Email Address].
+<div id="badges">
+  <a href="https://www.linkedin.com/in/prathmeshpatil64/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>.

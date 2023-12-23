@@ -1,7 +1,7 @@
 # WebSocket Chat Application
 
 <div id="header" align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="100"/>
+  <img src="https://private-user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMzNjY0NjQsIm5iZiI6MTcwMzM2NjE2NCwicGF0aCI6Ii83NDAzODE5MC8yNDE3NjU0NDAtODA3Mjg4MjAtZTA2Yi00Zjk2LTljOWUtOWRmNDZmMGNjMGE1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjIzVDIxMTYwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJmMDA5ZjYyZmRiMGIyNzc0MDQ4Y2NlM2RkMmNkOWMyMjBiZTkxNGQwODcwNThiY2U0MzYyOGIyMGNmMGFkOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.IOs0uWLCWHLvdqWKcQ6AFACGS9FZ2ocRACaqETqTjBs" width="500"/>
 </div>
 
 Welcome to my WebSocket-based chat application! This project demonstrates a simple chat application using WebSocket technology.
@@ -64,6 +64,6 @@ Welcome to my WebSocket-based chat application! This project demonstrates a simp
 For any inquiries or suggestions, feel free to contact me at,
 <div id="badges">
   <a href="https://www.linkedin.com/in/prathmeshpatil64/">
-    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" alt="LinkedIn Badge"/>
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>

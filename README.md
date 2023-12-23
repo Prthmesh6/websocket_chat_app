@@ -54,15 +54,16 @@ Welcome to my WebSocket-based chat application! This project demonstrates a simp
 
 ## Future Improvements
 
-- This is just a working Websocket chat app sample
+- This is a working Websocket chat app sample
 - In Future I am going to build a proper authentication and maintainable code for this
 - Database will be used to keep the user details
 
 
 ## Contact Information
 
+For any inquiries or suggestions, feel free to contact me at,
 <div id="badges">
   <a href="https://www.linkedin.com/in/prathmeshpatil64/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" alt="LinkedIn Badge"/>
   </a>
-</div>.
+</div>
